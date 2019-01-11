@@ -3,9 +3,9 @@ layout: page
 title: Redis 系列文章
 titlebar: Redis 
 subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Redis 系列教程
-menu: Redis
+menu: redis
 css: ['blog-page.css']
-permalink: /Redis
+permalink: /redis
 keywords: Redis,Redis 集群,部署,搭建,Redis 教程
 ---
 <div class="row">
