@@ -6,19 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  纯洁的微笑
-subtitle: 分享技术，品味人生
-name: 纯洁的微笑 
-email: ityouknow@126.com
-description: 本站是纯洁的微笑的技术分享博客。内容涵盖生活故事、Java后端技术、Spring Boot、Spring Cloud、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
-keywords: ityouknow,纯洁的微笑,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构,大数据,一线,FastDFS,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
+title:  HQChan
+subtitle: stay hungry，stay foolish
+name: HQChan
+email: 13902021104@139.com
+description: 本博客是HQChan分享，记录工作中遇到的相关经历和技术的站点，主要涉及redis，Netty，spring，springboot，python大数据分析及爬虫
+keywords: redis，Netty，spring，springboot，python大数据分析及爬虫，
 encoding: "utf-8"
 favicon: favicon.png 
 
 repository: haiqiangchen/haiqiangchen.github.io
 github_url: https://github.com/haiqiangchen
 url: http://www.haiqiangchen.com
-enforce_ssl: ityouknow.com
+#enforce_ssl: ityouknow.com
 
 ## Gem
 plugins:
@@ -61,12 +61,12 @@ navs:
     label: Home
 
   -
-    href: /spring-boot.html
-    label: Spring-Boot
+    href: /redis.html
+    label: redis
 
   -
-    href: /spring-cloud.html
-    label: Spring-Cloud
+    href: /netty.html
+    label: netty
 
   -
     href: /archives.html
@@ -84,35 +84,6 @@ navs:
 # labels. my blog key words
 labels:
 
-  -
-    href: /share/2017/10/01/resource-sharing.html
-    name: 资源
-
-  -
-    href: /life.html
-    name: 故事
-
-  -
-    href: /arch.html
-    name: 架构
-    
-  -
-    href: /jvm.html
-    name: Jvm
-
-  -
-    href: /fastdfs.html
-    name: FastDFS
-
-  -
-    href: /mongodb.html
-    name: MongoDB
-
-  -
-    href: /docker.html
-    name: Docker
-
-  -
     href: /open-source.html
     name: Code   
 
@@ -120,20 +91,9 @@ labels:
 classes:
 
   -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
-
-  -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
-
-  -
-    href: /jvm.html
-    name: Jvm系列文章
-    describe: Java之根基，Java程序员必学
-
+    href: /redis.html
+    name: redis
+    describe: redis的集群，安装和应用场景
 
 # ---------------- #
 #       RSS        #
@@ -166,19 +126,19 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: ityouknow
+    username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: ityouknow
+    owner: 
     repo: blog-comments
     oauth:
-        client_id: 61bfc53d957e74e78f8f
-        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+        client_id: 
+        client_secret: 
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: ityouknow
+    owner: 
     repo: blog-comments
-    clientID: 61bfc53d957e74e78f8f
-    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+    clientID: 
+    clientSecret: 
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
