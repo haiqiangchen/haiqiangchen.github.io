@@ -10,11 +10,11 @@ keywords: Redis,Redis 集群,部署,搭建,Redis 教程
 ---
 <div class="row">
 
-    <div class="col-md-12">
+  <div class="col-md-12">
 
-        <ul id="posts-list">
+   <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='redis'  or post.keywords contains 'reids' %}
+                {% if post.category=='redis'  or post.keywords contains 'redis' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -26,11 +26,11 @@ keywords: Redis,Redis 集群,部署,搭建,Redis 教程
             {% endfor %}
         </ul> 
 
-        <!-- Pagination -->
-        {% include pagination.html %}
+   <!-- Pagination -->
+   {% include pagination.html %}
 
-        <!-- Comments -->
-       <div class="comment">
+   <!-- Comments -->
+   <div class="comment">
          {% include comments.html %}
        </div>
     </div>
@@ -39,8 +39,8 @@ keywords: Redis,Redis 集群,部署,搭建,Redis 教程
 <script>
     $(document).ready(function(){
 
-        // Enable bootstrap tooltip
-        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+    // Enable bootstrap tooltip
+   $("body").tooltip({ selector: '[data-toggle=tooltip]' });
 
-    });
+  });
 </script>
